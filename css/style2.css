@@ -1,0 +1,114 @@
+/**********************************
+            MAIN STYLES
+**********************************/
+html {
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-size: 1em;
+    
+}
+
+header {
+    background-color: orange;
+}
+
+p {
+    font-size: 1em;
+    font-weight: 650;
+    line-height: 1.45em;
+}
+
+
+/**********************************
+            HEADERS
+**********************************/
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 5px 8px 10px black;
+    font-size: 5.625em; /*  90px / 16px */
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: .2em;
+    color: white;
+    margin: 10px;
+}
+
+h2 {
+    border-top: 4px groove;
+    padding-top: .5em;
+}
+
+.title { /**** MAIN h2 ****/
+    font-size: 1.625em; /* 26px/16px */
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .4em;
+    color: white;
+    border-top: 4px groove;
+    padding-top: 1.65em;
+    text-shadow: 5px 8px 10px black;
+}
+
+.main-header {
+    padding: 18% 20% 20% 20%;
+    height: 20%;
+    background-image:   linear-gradient(0deg, #fff, transparent 60%),
+                        url("../vegas_img/MtCharleston/IMG_0375%5B1%5D.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/**********************************
+            Navigation
+**********************************/
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    display: inline-block;
+    list-style: none;
+    padding-left: 0;
+    margin: 0 10px;
+    }
+
+nav li {
+    display: inline-block;
+    padding: 5px 40px;
+    text-align: center;
+    list-style: none;
+}
+
+    nav a {
+        text-decoration-line: none;
+        font-weight: bold;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+    }
+
+
+
+/**********************************
+            WRAPS
+**********************************/
+.content-wrap {
+    text-align: center;
+    padding: 1px;
+    width: 35%;
+    margin: 0 32.5%;
+}
